@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Press ID Verification – Zest News</title>
+
+<style>
+body{
+  background:#f4f6f8;
+  font-family:Arial, sans-serif;
+}
+.card{
+  max-width:420px;
+  margin:30px auto;
+  background:#fff;
+  border:1px solid #000;
+  border-radius:10px;
+  padding:16px;
+}
+.header{
+  text-align:center;
+  border-bottom:1px solid #000;
+  padding-bottom:10px;
+}
+.header h2{
+  margin:5px 0;
+}
+.photo{
+  text-align:center;
+  margin:15px 0;
+}
+.photo img{
+  width:120px;
+  height:150px;
+  object-fit:cover;
+  border:1px solid #000;
+}
+.status{
+  text-align:center;
+  color:green;
+  font-weight:bold;
+  margin:10px 0;
+}
+table{
+  width:100%;
+  font-size:15px;
+}
+td{
+  padding:4px;
+}
+.footer{
+  font-size:13px;
+  margin-top:10px;
+  border-top:1px solid #000;
+  padding-top:8px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+  <div class="header">
+    <h2>ZEST NEWS</h2>
+    <p>Press Identity Verification</p>
+  </div>
+
+  <div class="photo">
+    <img src="photo.jpg">
+  </div>
+
+  <table>
+    <tr><td><b>Name</b></td><td>: Your Name</td></tr>
+    <tr><td><b>ID No</b></td><td>: ZN001</td></tr>
+    <tr><td><b>Designation</b></td><td>: Reporter</td></tr>
+    <tr><td><b>Area</b></td><td>: Your District</td></tr>
+    <tr><td><b>Valid Till</b></td><td>: 31 Dec 2026</td></tr>
+  </table>
+
+  <div class="status">STATUS : ACTIVE ✔</div>
+
+  <div class="footer">
+    Issued by Zest News Media Network<br>
+    Editor: Editor Name<br>
+    Contact: 9XXXXXXXXX
+  </div>
+
+</div>
+
+</body>
+</html>
